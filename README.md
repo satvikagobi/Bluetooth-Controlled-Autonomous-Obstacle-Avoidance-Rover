@@ -1,6 +1,10 @@
 # Bluetooth-Controlled-Autonomous-Obstacle-Avoidance-Rover
-This project is a Bluetooth-controlled and autonomous smart robot car developed using Arduino Uno. The robot can be operated manually using a mobile phone through the HC-05 Bluetooth module, where directional commands are sent to control its movement. It can move forward, backward, left, right, and stop based on user input.
+This project presents the design and development of a smart robotic rover system based on the Arduino Uno microcontroller. The system is capable of both manual wireless control via Bluetooth and autonomous navigation with obstacle avoidance, making it a dual-mode intelligent robotic platform.
 
-In addition to manual control, the robot also has an obstacle avoidance mode. In this mode, an ultrasonic sensor is used to detect obstacles in front of the robot, and a servo motor rotates the sensor to scan left and right directions. Based on the distance measured, the Arduino decides the safest path and controls the L298N motor driver to navigate accordingly.
+In manual mode, the robot is controlled using a smartphone application through the HC-05 Bluetooth module, which receives wireless commands and transmits them to the Arduino. Based on the received instructions, the Arduino processes the signals and drives the motors accordingly using an L298N motor driver circuit, enabling movement in all directions such as forward, backward, left, right, and stop.
 
-The system uses a dual-mode operation, allowing switching between manual and autonomous control. This makes the robot useful for understanding basic concepts of embedded systems, wireless communication, sensor integration, and robotics control systems.
+In autonomous mode, the robot utilizes an ultrasonic sensor (HC-SR04) mounted on a servo motor to detect obstacles and measure distances in its environment. The servo allows the sensor to rotate and scan different directions, enabling the system to analyze available paths. When an obstacle is detected within a predefined range, the robot automatically stops, evaluates alternative directions, and selects the safest path to continue navigation.
+
+The system is powered by a dual lithium-ion battery setup, ensuring sufficient energy supply for both logic and motor operations. The Arduino Uno acts as the central processing unit, coordinating communication between the Bluetooth module, sensors, and motor driver to achieve smooth and intelligent control.
+
+Overall, this project demonstrates an efficient integration of embedded systems, wireless communication, sensor-based decision making, and robotic control, forming a foundational model for real-world applications such as autonomous vehicles, industrial automation, and smart mobility systems.

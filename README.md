@@ -8,3 +8,9 @@ In autonomous mode, the robot utilizes an ultrasonic sensor (HC-SR04) mounted on
 The system is powered by a dual lithium-ion battery setup, ensuring sufficient energy supply for both logic and motor operations. The Arduino Uno acts as the central processing unit, coordinating communication between the Bluetooth module, sensors, and motor driver to achieve smooth and intelligent control.
 
 Overall, this project demonstrates an efficient integration of embedded systems, wireless communication, sensor-based decision making, and robotic control, forming a foundational model for real-world applications such as autonomous vehicles, industrial automation, and smart mobility systems.
+
+---
+
+## Author
+
+**Satvika Gobi**

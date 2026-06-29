@@ -1,4 +1,4 @@
-# Bluetooth-Controlled-Autonomous-Obstacle-Avoidance-Rover
+# Dual-Mode Robot Car: Bluetooth Control and Obstacle Avoidance
 This project presents the design and development of a smart robotic rover system based on the Arduino Uno microcontroller. The system is capable of both manual wireless control via Bluetooth and autonomous navigation with obstacle avoidance, making it a dual-mode intelligent robotic platform.
 
 In manual mode, the robot is controlled using a smartphone application through the HC-05 Bluetooth module, which receives wireless commands and transmits them to the Arduino. Based on the received instructions, the Arduino processes the signals and drives the motors accordingly using an L298N motor driver circuit, enabling movement in all directions such as forward, backward, left, right, and stop.
